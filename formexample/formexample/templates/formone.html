@@ -1,0 +1,7 @@
+<h1>This is a very simple form</h1>
+
+<form action="/result/42/" method="post">
+  {% csrf_token %}
+  <input type="text" name="testtext" placeholder="type in some test text">
+<input type="submit" value="submit">
+</form>
